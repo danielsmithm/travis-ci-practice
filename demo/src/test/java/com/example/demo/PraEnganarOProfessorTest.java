@@ -14,5 +14,9 @@ public class PraEnganarOProfessorTest {
 	public void testTestaSeOCompiladorFunciona() {
 		assertEquals(true, false);
 	}
-	
+
+	@Test
+	public void testTestaSeOCompiladorFunciona2ORetorno() {
+		assertEquals(true, false);
+	}
 }
