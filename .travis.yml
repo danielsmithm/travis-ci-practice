@@ -4,6 +4,7 @@ script:
 - cd demo/
 - mvn install -Dmaven.javadoc.skip=true -B -V
 deploy:
+  provider: heroku
   api_key:
     secure: KSsUhDFErjTNkRHfTOKP1TsBq43UfSszUfGBlXXA7fQV2Z7sQ+etZ5UwlV42os3H5GuKawBcMDnIRPvq/mSkauV1vgMOT2ZxkNkn3smU5VoM6RpdJbRJ9wpG43NO2nir1DmH9ToAoAquhrJcs3NTds+1Vr24JAr18MFA7nqszaHUQ5StbYFOIL/vcAJXD28NxZ2oAKJyxD/nt8udZzsAaueQ2iycM8z6w93CNqZOcGmsWxL6bxgZfCgU96VtIl2XrtI6zpBmyyWq494INLOPD8f5/kAkrvySfXlOLlRLyPkNw5lcJMX/dzZ7UOAWYfjxuzh0mLlyh8n9FkMEa75SyOXenptkDTDDzxzppNfrC+wk8wgt/3/8/2lNVKpcYQgWj+l4PlTn2aiQmIXdzrYtnE8e5OCRDW7ySZTc+eEjmSDFrJqz500a9AQtVVKi5cgjJL2z+3b/TlnwVxWVAsIiILINji6kJKLvVCv6wvovtBl07+OVG4Aph/7GheXTFMlNL/9FaMvWTseZ+sIX0BaUf/7RAlL8i5d41QsO1dTY84izVB4npRSssUozRrTbJ0InNuXSgJEAnIiiErozgFMJlBCvp1BHjTgupuT4NbznfafYD0LHgZW1KAHRowxadtCDR05GaIg5u/pbln3jhgSG90aB3dsFlfdO/bsiqhNuHGE=
    on:
