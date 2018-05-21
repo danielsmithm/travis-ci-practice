@@ -15,9 +15,4 @@ public class PraEnganarOProfessorTest {
 		assertEquals(true, false);
 	}
 	
-	@Test
-	public void testQuebrarBuildDoProjeto(){
-		throw new NullPointerException();
-	}
-	
 }
